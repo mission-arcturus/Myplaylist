@@ -3,7 +3,7 @@
 # Total channels: 507
 # Generated (Asia/Dhaka): 2026-01-09 19:58:51
 
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo=" ",BTV 
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/5OE2FDt.png",BTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo=" ", Jumuna TV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
