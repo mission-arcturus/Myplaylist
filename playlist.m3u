@@ -1,6 +1,6 @@
 #EXTM3U
-# Created by @noobmaster_616
-# Total channels: 507
+# Created by @arcturus
+# Total channels: 50
 # Generated (Asia/Dhaka): 2026-01-09 19:58:51
 
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/lA4RpUf.png",BTV 
@@ -15,12 +15,20 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES_cZZsBNnOkwJLW1Oz1/posters/b872b8f5-cb6b-45a1-a1cd-7609df51d614.png",Independent TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo=" ",DESH TV
+https://tv.ottking.top:443/ottking247/fuckyou/23.m3u8
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/satv.png",SA TV
+https://tv.ottking.top:443/ottking247/fuckyou/24.m3u8
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1651985369-10396030.png",EKHON TV HD
+https://tv.ottking.top:443/ottking247/fuckyou/26.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/xe28nsd.png", Bangla Vision TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/KoGHfvs.png", NTV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/Ojp1q4h.png", ATN Bangla
 https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1674105604-17294778.png",RTV
+https://tv.ottking.top:443/ottking247/fuckyou/19.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png", Channel I
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://i.imgur.com/F62GUqS.png", Dipto TV
@@ -33,8 +41,13 @@ https://tv.ottking.top:443/ottking247/fuckyou/20.m3u8
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 group-title="Indian" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6CT.png",Zee Bangla HD
 https://tv.ottking.top:443/ottking247/fuckyou/1.m3u8
+#EXTINF:-1 group-title="Indian" tvg-logo="https://i.imgur.com/1nPtakc.png",ZEE BANGLA CINEMA
+https://tv.ottking.top:443/ottking247/fuckyou/29.m3u8
 #EXTINF:-1 group-title="Indian" tvg-logo="https://i.imgur.com/IlufzR5.png",Star Jalsha HD
 https://tv.ottking.top:443/ottking247/fuckyou/2.m3u8
-#EXTINF:-1 group-title="Pakistani " tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/Hum_TV_2013.png",HUM TV
-https://tv.ottking.top:443/ottking247/fuckyou/8.m3u8
-
+#EXTINF:-1 group-title="Indian" tvg-logo="https://i.imgur.com/25eWjX2.png",Jalsha Movies
+https://tv.ottking.top:443/ottking247/fuckyou/12.m3u8
+#EXTINF:-1 group-title="Indian" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Bengali_HD.png",COLORS BANGLA HD
+https://tv.ottking.top:443/ottking247/fuckyou/27.m3u8
+#EXTINF:-1 group-title="Indian" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png",COLORS BANGLA CINEMA
+https://tv.ottking.top:443/ottking247/fuckyou/28.m3u8
