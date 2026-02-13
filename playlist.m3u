@@ -143,9 +143,10 @@ http://103.182.170.32:8888/play/a02r
 http://103.182.170.32:8888/play/a01w
 #EXTINF:-1 tvg-name="Zee Classics " group-title="Indian",Zee Classics 
 http://103.182.170.32:8888/play/a054
-#EXTINF:-1 tvg-name="Zee TV" group-title="Indian",Zee TV
+#EXTINF:-1 tvg-name="Zee TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Zee_TV_Logo_2025.svg" group-title="Indian",Zee TV
 http://103.182.170.32:8888/play/a03s
-#EXTINF:-1 tvg-name="Zee TV HD" group-title="Indian",Zee TV HD
+#EXTINF:-1 tvg-name="Zee TV HD" tvg-logo="	
+https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Indian",Zee TV HD
 http://103.182.170.32:8888/play/a04r
 #EXTINF:-1 tvg-name="Nat Geo Wild HD" group-title="Indian",Nat Geo Wild HD
 http://103.182.170.32:8888/play/a01r
