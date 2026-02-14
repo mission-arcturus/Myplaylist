@@ -81,23 +81,23 @@ http://103.182.170.32:8888/play/a04o
 http://103.182.170.32:8888/play/a035
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://i.imgur.com/0iNQvoL.png" group-title="Indian",Discovery Kids
 http://103.182.170.32:8888/play/a02o
-#EXTINF:-1 tvg-name="Disney Channel" group-title="Indian",Disney Channel
+#EXTINF:-1 tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"  group-title="Indian",Disney Channel
 http://103.182.170.32:8888/play/a04g
-#EXTINF:-1 tvg-name="Disney International HD" group-title="Indian",Disney International HD
+#EXTINF:-1 tvg-name="Disney International HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="Indian",Disney International HD
 http://103.182.170.32:8888/play/a01y
-#EXTINF:-1 tvg-name="Disney Junior" group-title="Indian",Disney Junior
+#EXTINF:-1 tvg-name="Disney Junior" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png" group-title="Indian",Disney Junior
 http://103.182.170.32:8888/play/a03q
-#EXTINF:-1 tvg-name="Hungama" group-title="Indian",Hungama
+#EXTINF:-1 tvg-name="Hungama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hungama_TV.svg/512px-Hungama_TV.svg.png" group-title="Indian",Hungama
 http://103.182.170.32:8888/play/a04b
 #EXTINF:-1 tvg-name="MTV HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/MTV_HD_Plus.png" group-title="Indian",MTV HD
 http://103.182.170.32:8888/play/a025
-#EXTINF:-1 tvg-name="Nick " group-title="Indian",Nick 
+#EXTINF:-1 tvg-name="Nick " tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Indian",Nick 
 http://103.182.170.32:8888/play/a04q
-#EXTINF:-1 tvg-name="Nick Jr." group-title="Indian",Nick Jr.
+#EXTINF:-1 tvg-name="Nick Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Indian",Nick Jr.
 http://103.182.170.32:8888/play/a02q
-#EXTINF:-1 tvg-name="Pogo " group-title="Indian",Pogo 
+#EXTINF:-1 tvg-name="Pogo " tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_POGO/images/LOGO_HD/image.png" group-title="Indian",Pogo 
 http://103.182.170.32:8888/play/a02p
-#EXTINF:-1 tvg-name="Movies Now HD " group-title="Indian",Movies Now HD 
+#EXTINF:-1 tvg-name="Movies Now HD " tvg-logo="https://i.imgur.com/lShH4Z8.png"  group-title="Indian",Movies Now HD 
 http://103.182.170.32:8888/play/a01n
 #EXTINF:-1 tvg-name="SET HD " group-title="Indian",SET HD 
 http://103.182.170.32:8888/play/a03t
@@ -109,7 +109,7 @@ http://103.182.170.32:8888/play/a04f
 http://103.182.170.32:8888/play/a027
 #EXTINF:-1 tvg-name="SONY SAB " tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" group-title="Indian",SONY SAB 
 http://103.182.170.32:8888/play/a03r
-#EXTINF:-1 tvg-name="SONY YAY! " group-title="Indian",SONY YAY! 
+#EXTINF:-1 tvg-name="SONY YAY! " tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Indian",SONY YAY! 
 http://103.182.170.32:8888/play/a04m
 #EXTINF:-1 tvg-name="STAR GOLD HD" group-title="Indian",STAR GOLD HD
 http://103.182.170.32:8888/play/a02j
