@@ -194,6 +194,9 @@ http://103.182.170.32:8888/play/a036
 http://103.182.170.32:8888/play/a034
 
 
+#EXTINF:-1 group-title="Pakistani " tvg-logo="https://i.imgur.com/uu0UJme.png", A-Plus TV
+http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=842727&extension=ts&play_token=hCgr2om3jY
+
 
 #EXTINF:-1 group-title="Movies" tvg-logo="https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/170/763/170763054_ts6o9j.jpg",Dhurandhar 2025
 https://pixeldrain.dev/api/file/iA4AbYD7?download
