@@ -119,7 +119,7 @@ http://103.182.170.32:8888/play/a029
 http://103.182.170.32:8888/play/a028
 #EXTINF:-1 tvg-name="STAR PLUS " group-title="Indian",STAR PLUS 
 http://103.182.170.32:8888/play/a03o
-#EXTINF:-1 tvg-name="STAR Plus HD" tvg-logo="https://s3.aynaott.com/storage/d86f6e008e7984688c4f0beb9a70b65b" group-title="Indian",STAR Plus HD
+#EXTINF:-1 tvg-id="ts8" tvg-name="STAR Plus HD" tvg-logo="https://s3.aynaott.com/storage/d86f6e008e7984688c4f0beb9a70b65b" group-title="Indian",STAR Plus HD
 http://103.182.170.32:8888/play/a03z
 #EXTINF:-1 tvg-name="Sonic" group-title="Indian",Sonic
 http://103.182.170.32:8888/play/a02s
