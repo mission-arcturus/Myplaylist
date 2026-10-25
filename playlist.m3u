@@ -197,6 +197,7 @@ http://103.182.170.32:8888/play/a034
 
 
 #EXTINF:-1 group-title="Pakistani " tvg-logo="https://i.imgur.com/uu0UJme.png", A-Plus TV
+https://cdn4.mjunoon.tv:8087/streamtest/118M/chunks.m3u8
 http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=842727&extension=ts&play_token=hCgr2om3jY
 #EXTINF:-1 group-title="Pakistani " tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/Hum_TV_2013.png", Hum TV
 http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=292952&extension=ts&play_token=svGjWtqm9z
