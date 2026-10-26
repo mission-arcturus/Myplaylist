@@ -3,16 +3,16 @@
 # Total channels: 50
 # Generated (Asia/Dhaka): 2026-01-09 19:58:51
 
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/lA4RpUf.png",BTV 
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/JnWdHSrq/20250529-071604.png",BTV 
 https://s1.itcnbd.live/btv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PiL635oBEef-9-uV2uCe/posters/36f380e0-6c71-4b27-a73b-2afb3ce7e982.png", Jumuna TV 
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/L4D0hyrt/P-071035.png", Jumuna TV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
 https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png", Ekattor HD 71 
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/D0xCDZqj/20250529-071258.png", Ekattor HD 71 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.imgur.com/4JLkaF7.png", Channel 24 
 https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png", Somoy TV  
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/Qxn4JFNV/20250529-071147.png", Somoy TV  
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES_cZZsBNnOkwJLW1Oz1/posters/b872b8f5-cb6b-45a1-a1cd-7609df51d614.png",Independent TV
 https://cdn4.mjunoon.tv:8087/streamtest/118M/chunks.m3u8
@@ -38,6 +38,8 @@ https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
 https://tvsen4.aynaott.com/durontotv/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://cdnhost.akashbd.net/assets/uploads/channels_images/1618746762-26959522.png",GAZI TV HD
 https://tv.ottking.top:443/ottking247/fuckyou/20.m3u8
+#EXTINF:-1 tvg-name="T Sports HD" tvg-logo="https://i.postimg.cc/VL5yTtwr/20250707-141739.png" group-title="Sports",T Sports HD
+https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMpWmLb0Ts759Tjsp/m3u8
 #EXTINF:-1 group-title="Religious" tvg-logo="https://i.imgur.com/1ztVXUi.png", Peace TV Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 group-title="Indian" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6CT.png",Zee Bangla HD
