@@ -242,6 +242,13 @@ http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=281542&extensio
 #EXTINF:-1 group-title="Pakistani " tvg-logo="https://i.imgur.com/UxAE5O4.png", Capital TV
 http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=292934&extension=ts&play_token=svGjWtqm9z
 
+#EXTINF:-1 group-title="Bangladesh", BTV
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+https://live.btvlive.gov.bd/live/1233006b-fdd1-4ef0-b562-ba66c19644d5/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
+
+
+
 #EXTINF:-1 group-title="Movies" tvg-logo="https://image.tmdb.org/t/p/w342/adYjCJGSNiL7CIaDW3g0Bcg7r2Z.jpg ", Sitaare Zameen Par (2025)
 https://dash-hls-bridge.johndoeshcmc.workers.dev?url=https%3A%2F%2Fsacdn.hakunaymatata.com%2Fdash%2F4056338883506850416_0_0_1080_h265_214%2Fmaster.m3u8&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9kYXNoLzQwNTYzMzg4ODM1MDY4NTA0MTZfMF8wXzEwODBfaDI2NV8yMTQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MzcwNDEwNX19fV19&Signature=MAaPSNPMA-ud7HJff9HpD-x2VUKJc8eKCNSHIW5AqiIsXWTT00P~kngG0fE~ywH4J-o1nTayKrKXkoMcT-G8Fzxya4WO6x2QDwGePK-ianQ4e7~kNDh0HSyXTqmYiFFSLG4tQ3E3uu~zet36lI2UN8AT2hPKws4~SMzx6hCDKIdLHo9L8snRkR5LYEV1H3kbIWKJ549s89G4VQsaxDYpzDXXqDpeFBTQVVvys--yNoAl9wfd~7OgbOhcEfhwsdzW3SyT1eUi9710qeygMByv41o7lFnXerXteDIEG1w4V6yxuTnzacaghmNfdSNqhvnVsY7ITFxUKD33Vok-QHX~zg__&Key-Pair-Id=KMHN1LQ1HEUPL
 #EXTINF:-1 group-title="Movies" tvg-logo="https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/170/763/170763054_ts6o9j.jpg",Dhurandhar 2025
