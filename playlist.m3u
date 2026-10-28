@@ -237,6 +237,8 @@ http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=292856&extensio
 http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=292932&extension=ts&play_token=svGjWtqm9z
 #EXTINF:-1 group-title="Pakistani " tvg-logo="https://i.imgur.com/WK5Cqap.png", Aaj Entertainment
 http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=292859&extension=ts&play_token=svGjWtqm9z
+#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/JnWdHSrq/20250529-071604.png",BTV2
+https://live.btvlive.gov.bd/live/1233006b-fdd1-4ef0-b562-ba66c19644d5/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8|referer=https://www.btvlive.gov.bd/|origin=https://www.btvlive.gov.bd
 #EXTINF:-1 group-title="Pakistani " tvg-logo="https://i.imgur.com/eajSRFo.png", Bol Entertainment
 http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=281542&extension=ts&play_token=10nnRAmwso
 #EXTINF:-1 group-title="Pakistani " tvg-logo="https://i.imgur.com/UxAE5O4.png", Capital TV
@@ -247,8 +249,6 @@ http://dragon1977.com/play/live.php?mac=00:1A:79:81:F8:6D&stream=292934&extensio
 #EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
 https://live.btvlive.gov.bd/live/1233006b-fdd1-4ef0-b562-ba66c19644d5/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
 
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/JnWdHSrq/20250529-071604.png",BTV2 
-https://live.btvlive.gov.bd/live/1233006b-fdd1-4ef0-b562-ba66c19644d5/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8|referer=https://www.btvlive.gov.bd/|origin=https://www.btvlive.gov.bd
 
 
 #EXTINF:-1 group-title="Movies" tvg-logo="https://image.tmdb.org/t/p/w342/adYjCJGSNiL7CIaDW3g0Bcg7r2Z.jpg ", Sitaare Zameen Par (2025)
