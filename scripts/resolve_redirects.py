@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 import requests
 
-PLAYLIST = Path("playlist.m3u")
+PLAYLIST = Path("playlist-org.m3u")
 TARGET_HOST = "arcturus.byethost14.com"
 TARGET_PATH = "/redirect.php"
 TIMEOUT = 30
