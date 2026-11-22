@@ -1,27 +1,23 @@
 #!/usr/bin/env python3
-"""
-Resolve HTTP redirects for redirect.php URLs in playlist.m3u.
-Only replace a URL when an actual HTTP redirect reaches a different URL.
-M3U metadata, ordering, and pipe-delimited player options are preserved.
-"""
-from pathlib import Path
 import re
 import sys
+from pathlib import Path
+from urllib.parse import urlsplit
 import requests
 
 PLAYLIST = Path("playlist.m3u")
-TARGET = "arcturus.byethost14.com/redirect.php"
-TIMEOUT = 25
+TARGET_HOST = "arcturus.byethost14.com"
+TARGET_PATH = "/redirect.php"
+TIMEOUT = 30
 
-def parse_options(option_text):
+def parse_pipe_options(text):
     headers = {}
-    # Supports the common M3U pipe syntax:
-    # |User-Agent=...&Cookie=... and |referer=...
-    parts = re.split(r"[&|]", option_text)
-    for part in parts:
-        if "=" not in part:
+    # M3U pipe options commonly look like:
+    # |User-Agent=...&Cookie=...&referer=...
+    for item in text.split("&"):
+        if "=" not in item:
             continue
-        key, value = part.split("=", 1)
+        key, value = item.split("=", 1)
         key = key.strip().lower()
         value = value.strip()
         if key in ("user-agent", "http-user-agent"):
@@ -34,36 +30,48 @@ def parse_options(option_text):
             headers["Origin"] = value
     return headers
 
-def resolve(url, headers):
+def is_target_url(url):
     try:
+        parts = urlsplit(url)
+        return parts.hostname == TARGET_HOST and parts.path == TARGET_PATH
+    except Exception:
+        return False
+
+def resolve_redirect(url, headers):
+    try:
+        # GET is intentional: some redirect endpoints do not implement HEAD.
         response = requests.get(
             url,
             headers=headers,
             allow_redirects=True,
-            timeout=TIMEOUT,
             stream=True,
+            timeout=TIMEOUT,
         )
         final_url = response.url
+        history = list(response.history)
         status = response.status_code
         response.close()
 
-        # Do not replace with an error page or a URL that did not redirect.
-        if 200 <= status < 400 and final_url != url:
+        # A redirect chain is useful even if the final media host rejects the
+        # lightweight request (e.g. returns 403). Do not require final 2xx.
+        if history and final_url != url:
+            print(f"REDIRECT ({len(history)} hop(s), final HTTP {status}): {url} -> {final_url}")
             return final_url
-        print(f"SKIP (no usable HTTP redirect, status {status}): {url}")
+
+        print(f"NOT RESOLVED (HTTP {status}, no HTTP redirect): {url}")
     except requests.RequestException as exc:
-        print(f"SKIP (request failed): {url} :: {exc}")
+        print(f"REQUEST FAILED: {url} :: {exc}")
     return url
 
 def main():
     if not PLAYLIST.exists():
-        print("ERROR: playlist.m3u was not found in the repository root.")
-        sys.exit(1)
+        sys.exit("ERROR: playlist.m3u is missing.")
 
     original = PLAYLIST.read_text(encoding="utf-8-sig")
     lines = original.splitlines(keepends=True)
-    changed = 0
     pending_headers = {}
+    updated_count = 0
+    found_count = 0
 
     for index, line in enumerate(lines):
         stripped = line.strip()
@@ -73,45 +81,49 @@ def main():
             if "=" in directive:
                 key, value = directive.split("=", 1)
                 key = key.strip().lower()
-                if key in ("http-user-agent", "http-cookie", "http-referrer"):
-                    pending_headers[key] = value.strip()
+                value = value.strip()
+                if key == "http-user-agent":
+                    pending_headers["User-Agent"] = value
+                elif key == "http-cookie":
+                    pending_headers["Cookie"] = value
+                elif key == "http-referrer":
+                    pending_headers["Referer"] = value
+                elif key == "http-origin":
+                    pending_headers["Origin"] = value
             continue
 
         if not stripped or stripped.startswith("#"):
             continue
 
-        url_part, separator, player_options = stripped.partition("|")
-        if TARGET not in url_part:
+        url, sep, options = stripped.partition("|")
+        if not is_target_url(url):
             pending_headers = {}
             continue
 
-        headers = {}
-        if "http-user-agent" in pending_headers:
-            headers["User-Agent"] = pending_headers["http-user-agent"]
-        if "http-cookie" in pending_headers:
-            headers["Cookie"] = pending_headers["http-cookie"]
-        if "http-referrer" in pending_headers:
-            headers["Referer"] = pending_headers["http-referrer"]
-        if separator:
-            headers.update(parse_options(player_options))
+        found_count += 1
+        headers = dict(pending_headers)
+        if sep:
+            headers.update(parse_pipe_options(options))
 
-        final_url = resolve(url_part, headers)
-        if final_url != url_part:
+        final_url = resolve_redirect(url, headers)
+        if final_url != url:
             newline = "\r\n" if line.endswith("\r\n") else "\n" if line.endswith("\n") else ""
-            suffix = f"|{player_options}" if separator else ""
-            lines[index] = f"{final_url}{suffix}{newline}"
-            changed += 1
-            print(f"UPDATED: {url_part} -> {final_url}")
+            # Preserve any player-specific pipe options after the URL.
+            suffix = ("|" + options) if sep else ""
+            lines[index] = final_url + suffix + newline
+            updated_count += 1
 
         pending_headers = {}
 
-    updated = "".join(lines)
-    if updated != original:
-        PLAYLIST.write_text(updated, encoding="utf-8")
-        print(f"Done. Updated {changed} redirect URL(s).")
-    else:
-        print("Done. No playlist changes were made.")
+    result = "".join(lines)
+    if result != original:
+        PLAYLIST.write_text(result, encoding="utf-8")
+    print(f"SUMMARY: found={found_count}, updated={updated_count}")
+    if found_count == 0:
+        print("No matching redirect.php URLs were found.")
+    if found_count and updated_count == 0:
+        print("No HTTP Location redirect was exposed to the GitHub runner.")
+        print("The endpoint may use JavaScript/HTML/JSON redirection or block GitHub Actions.")
 
 if __name__ == "__main__":
     main()
-  
