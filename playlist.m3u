@@ -5,10 +5,10 @@
 
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/JnWdHSrq/20250529-071604.png",BTV 
 https://s1.itcnbd.live/btv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/L4D0hyrt/P-071035.png", Jumuna TV 
+#EXTINF:-1 group-title="Sports - Football " tvg-logo="https://i.postimg.cc/L4D0hyrt/P-071035.png", Jumuna TV 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
 https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/D0xCDZqj/20250529-071258.png", Ekattor HD 71 
+#EXTINF:-1 group-title="Bangla | News " tvg-logo="https://i.postimg.cc/D0xCDZqj/20250529-071258.png", Ekattor HD 71 
 https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
 #EXTINF:-1 group-title="Bangladeshi " tvg-logo="https://i.postimg.cc/nLmPznJr/20250529-071852.png", Channel 24 
 https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
